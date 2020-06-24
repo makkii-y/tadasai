@@ -64,6 +64,20 @@ a:hover {
 .main {
 	background-color: #fff;
 }
+.footer {
+	display: table;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+.footer > small {
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	background-color: rgba(4,199,226,1.00);
+
+}
 .content_wrapper{
 	border: solid 20px #00c7e2 ;
 }
@@ -107,7 +121,7 @@ a:hover {
 }
 .sai {
 	position: relative;
-    bottom: -5px;
+    bottom: 0px;
     left: -2px;
 }
 .line {
@@ -145,16 +159,24 @@ h3 {
 	text-align: right;
 	margin-right: 2%;
 }
+
+/* info */
 .info {
 	text-align: left;
 }
-.info_01 {
+.info_01, .info_02, .info_03 {
 	text-align: center;
 }
-.info > h2 {
+.info_h2_area > h2, .sns > h2 {
 	font-size: 28px;
 	font-weight: bold;
-	margin: 10px 0px 10px 80px;
+	margin: 3%;
+}
+.info_h2_right {
+	text-align: right;
+}
+.info_h2_left {
+	text-align: left;
 }
 .info_contents > h3 {
 	display: inline-block;
@@ -169,12 +191,53 @@ h3 {
 .info_contents {
 	text-align: center;
 }
+.info_contents > p , .info_contents > ol{
+	line-height: 3;
+}
+.info_note {
+	margin: 20px;
+	text-align: center;
+}
+.info_text {
+	width: 45%;
+	margin: 0 auto;
+	line-height: 3;
+}
+.info_h2_area, .sns > h2 {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.info_03_column {
+	margin: auto;
+	border: 1px solid;
+	border-radius: 15px;
+	border-color: #C93597;
+	color: #C93597;
+	padding: 5px 50px;
+}
+.info_text_color_pink {
+	color: #C93597;
+}
+.info_text_bg_01 {
+	background-color: #FEFF7C;
+}
+.info_03_list, .sns_list {
+	width: 50%;
+    margin: 0 auto;
+	font-size: 20px;
+	padding: 3%;
+}
+.info_03_text {
+	margin-bottom: 10%;
+}
 .plan_caption {
+	width: 55%;
 	font-size: 18px;
 	margin: 0 auto;
 	text-align: left;
 }
-.plan_caption_center {
+.plan_caption_center, .sns_caption_center {
 	text-align: center;
 	font-size: 18px;
 	margin-bottom: 10px;
@@ -190,7 +253,24 @@ h3 {
 	text-align: center;
 	margin: 100px 0px 20px 0px;
 }
-.info_note {
-	margin: 20px;
+
+/* sns */
+.sns_column {
+	margin: auto;
 	text-align: center;
+}
+.sns_column > a {
+	text-decoration:none;
+}
+.sns_column > a:hover{
+	text-decoration: underline;
+}
+.sns_column > a > p {
+	margin: 5% 0%;
+}
+.twitter > a {
+	color: #00C7E2;
+}
+.instagram > a {
+	color: #C93597;
 }
