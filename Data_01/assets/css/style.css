@@ -204,7 +204,7 @@ h3 {
 	margin: 20px;
 	text-align: center;
 }
-.info_text {
+.info_text, .plan_caption, .plan_caption_li {
 	width: 45%;
 	margin: 0 auto;
 	line-height: 2;
@@ -318,7 +318,7 @@ h3 {
 		width: 90%;
 		margin: 5% auto;
 	}
-	.plan_caption, .info_text, .cv_btn_img, .info_03_list, .sns_list, .date_01{
+	.plan_caption,　.plan_caption_li, .info_text, .cv_btn_img, .info_03_list, .sns_list, .date_01{
 		width: 90%;
 	}
 	.plan_caption_li {
