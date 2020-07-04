@@ -112,10 +112,10 @@ a:hover {
 	display: flex;
 }
 .column_01 {
-	margin: 20px 20px;
+	margin: 2% 4%;
 }
 .main_text {
-	font-size: 18px;
+	font-size: 20px;
 	margin-top: 50px;
 	font-weight: bold;
 }
@@ -273,4 +273,76 @@ h3 {
 }
 .instagram > a {
 	color: #C93597;
+}
+
+/* sp */
+
+@media screen and (max-width: 768px) {
+	.column {
+		display: block;
+	}
+	.lead_pic_01 {
+		position: relative;
+    	bottom: 30px;
+	}
+	.main_h2 {
+		width: 100%;
+	}
+	.main_text {
+		margin-top: 0px;
+	}
+	.l-section > h3 {
+		font-size: 18px;
+	}
+	.merit > ul {
+		display: block;
+	}
+	.merit > ul > li {
+		width: 100%;
+	}
+	.merit_li_img {
+		width: calc(100% / 1.2);
+		margin: 2% 0%;
+	}
+	.info_h2_area {
+		width: 100%; 
+	}
+	.info_num_img {
+		width: 95%;
+	}
+	.info_h2_area > h2, .sns > h2 {
+		font-size: 18px;
+		width: 90%;
+		margin: 5% auto;
+	}
+	.plan_caption, .info_text {
+		width: 90%;
+	}
+	.plan_caption_li {
+		font-size: 15px;
+	}
+	.plan_caption_center, .sns_caption_center {
+		text-align: left;
+		width: 90%;
+   		margin: 0 auto;
+	}
+	.cv_btn_img {
+		width: 90%;
+	}
+	.cv_area_02 {
+		margin: 20px 0px;
+	}
+	.info_03_column {
+		margin: 5% 0%;
+	}
+	.info_03_list, .sns_list {
+		width: 90%;
+	}
+	.sns_list {
+		display: flex;
+		margin: 10% 0%;
+	}
+	.sns_column {
+		width: 30%;
+	}
 }
