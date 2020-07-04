@@ -248,11 +248,11 @@ h3 {
 	font-size: 18px;
 	margin-bottom: 10px;
 }
-.plan_caption_li {
+.plan_caption_li, .plan_caption_ol {
 	display: inline-block;
 	font-size: 18px;
 }
-.plan_caption_li > li {
+.plan_caption_li > li, .plan_caption_ol > li {
 	text-align: left;
 }
 .cv_area_02 {
@@ -321,7 +321,7 @@ h3 {
 	.plan_caption,　.plan_caption_li, .info_text, .cv_btn_img, .info_03_list, .sns_list, .date_01{
 		width: 90%;
 	}
-	.plan_caption_li {
+	.plan_caption_li, .plan_caption_ol {
 		font-size: 15px;
 	}
 	.plan_caption_center, .sns_caption_center {
