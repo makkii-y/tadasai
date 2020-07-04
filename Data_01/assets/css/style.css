@@ -149,6 +149,9 @@ a:hover {
 .merit {
 	text-align: center;
 }
+.merit_li_img {
+	width: 90%;
+}
 h3 {
 	font-size: 30px;
     font-weight: bold;
@@ -163,6 +166,9 @@ h3 {
 /* info */
 .info {
 	text-align: left;
+}
+.info_num_img {
+	width: 100%;
 }
 .info_01, .info_02, .info_03 {
 	text-align: center;
@@ -179,20 +185,20 @@ h3 {
 	text-align: left;
 }
 .info_contents > h3 {
-	display: inline-block;
-    padding: 10px 60px;
+    display: inline-block;
+    padding: 3px 60px;
     width: auto;
     font-size: 20px;
     font-weight: normal;
     border: solid 1px;
-    border-radius: 22px;
-	margin: 50px 0px;
+    border-radius: 30px;
+    margin: 50px 0px;
 }
 .info_contents {
 	text-align: center;
 }
 .info_contents > p , .info_contents > ol{
-	line-height: 3;
+	line-height: 2;
 }
 .info_note {
 	margin: 20px;
@@ -297,15 +303,12 @@ h3 {
 	.merit > ul {
 		display: block;
 	}
-	.merit > ul > li {
+	.merit > ul > li, .info_h2_area {
 		width: 100%;
 	}
 	.merit_li_img {
 		width: calc(100% / 1.2);
 		margin: 2% 0%;
-	}
-	.info_h2_area {
-		width: 100%; 
 	}
 	.info_num_img {
 		width: 95%;
@@ -315,7 +318,7 @@ h3 {
 		width: 90%;
 		margin: 5% auto;
 	}
-	.plan_caption, .info_text {
+	.plan_caption, .info_text, .cv_btn_img, .info_03_list, .sns_list{
 		width: 90%;
 	}
 	.plan_caption_li {
@@ -326,17 +329,11 @@ h3 {
 		width: 90%;
    		margin: 0 auto;
 	}
-	.cv_btn_img {
-		width: 90%;
-	}
 	.cv_area_02 {
 		margin: 20px 0px;
 	}
 	.info_03_column {
 		margin: 5% 0%;
-	}
-	.info_03_list, .sns_list {
-		width: 90%;
 	}
 	.sns_list {
 		display: flex;
